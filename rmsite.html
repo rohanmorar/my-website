@@ -1,51 +1,115 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>RM's Website</title>
-        <link rel="stylesheet" href="hmpgstyles.css">
-        <style>
-            div {
-                font-family: Verdana;
-                margin: 30px;
-            }
-            button {
-                width: 67px;
-                height: 24px;
-                font-size: 13px;
-                font-weight: bold;
-                background-color: white;
-            }
-            button:hover {
-                width: 75px;
-                height: 27px;
-                font-size: 15px;
-                font-weight: normal;
-                background-color: rgb(209,216,239);
-            }
-        </style>
-    </head>
-        <body bgcolor="#EDEEFE" style="color: black">
-            <div>
-                <img src="/Users/rohanmorar/Desktop/Web Development/HTML - Personal Site/1549480532002-modified (1).png" alt="Rohan profile picture" width="160" align="right">
-                <h1>Rohan Morar</h1>
-                    <p><em>Student at <strong>UT Dallas</strong>.</em></p>
-                    <p>I am a second-semester Junior at UT Dallas. I have ample experience working on both teams and individually on time-sensitive, school, and work projects. I thrive the most when working on projects that require the ability to ensure optimized work across a wide range of platforms, exceptionally creative thinking skills, and technical aptitude. My background in sales both differentiates and equips me with the right skills needed to interact with various teams across the board and become more valuable throughout the stages of the design process.</p>
-                    <a href="./Rohan Morar - Resume.pdf" target="blank">Resume</a>
-                <hr>
-                <h3>Education</h3>
-                    <ul>
-                    <li><strong>Bacehlor of Science in Computer Science</strong>, The University of Texas at Dallas (May 2023)</li>
-                    <li><strong>Associate of Science in Computer Science</strong>, Richland College</li>
-                    </ul>
-                <hr>
-                    <p>
-                    <h3>Pages</h3>
-                    <a href="projects.html"><button>Projects</button></a>
+<head>
+  <meta charset="utf-8">
+  <title>RM's Website</title>
+  <link rel="stylesheet" href="hmpgstyles.css">
+  <style>
+  img {
+  border-radius: 50%;
+  }
+    button {
+      width: 67px;
+      height: 24px;
+      font-size: 13px;
+      font-weight: bold;
+      background-color: white;
+    }
+    button:hover {
+      width: 75px;
+      height: 27px;
+      font-size: 15px;
+      font-weight: normal;
+      background-color: rgb(209,216,239);
+    }
+    .c1:hover {
+      background-color: rgb(209,216,239);
+    }
+  </style>
+</head>
+<body bgcolor="#EDEEFE" style="color: black">
+  <header>
+    <img src="/Users/rohanmorar/Desktop/1549480532002.jpeg" alt="Rohan profile picture" width="160" align="right">
+    <h1>Rohan Morar</h1>
+  </header>
+  <p>
+    <em>Student at <strong>UT Dallas</strong>.</em></p>
+  <p>
+    I am a second-semester Junior at UT Dallas. I have ample experience working on both teams and individually on time-sensitive, school, and work projects. I thrive the most when working on projects that require the ability to ensure optimized work across a wide range of platforms, exceptionally creative thinking skills, and technical aptitude. My background in sales both differentiates and equips me with the right skills needed to interact with various teams across the board and become more valuable throughout the stages of the design process.
+  </p>
+  <hr>
+  <h3>Education</h3>
+    <ul>
+    <li><strong>Bacehlor of Science in Computer Science</strong>, The University of Texas at Dallas (Expected: May 2023)</li>
+    <li><strong>Associate of Science in Computer Science</strong>, Richland College (August 2021)</li>
+    </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing = "15">
+    <tr>
+      <th> <strong>Work</strong> </th>
+      <th> <strong>Duration</strong> </th>
 
-                    <form action="projects.html">
-                    </form>
-                    </p>
-            </div>
-        </body>
+    </tr>
+    <tr>
+      <td>Sales Development Representative at Luxury Presence</td>
+      <td>October 2019 - March 2020</td>
+    </tr>
+  </table>
+  <h3>Skills</h3>
+
+  <table>
+    <td>
+      <td>
+        <table cellspacing ="10">
+        <tr>
+          <td class = "c1">Python</td>
+          <td>⭐️⭐️⭐️⭐️</td>
+          </tr>
+        <tr>
+          <td class = "c1">Java</td>
+          <td>⭐️⭐️⭐️⭐️</td>
+        </tr>
+        <tr>
+          <td class = "c1">C/C++</td>
+          <td>⭐️⭐️⭐️</td>
+        </tr>
+        </table>
+      </td>
+    </td>
+    <td>
+      <table cellspacing = "10">
+        <tr>
+          <td class = "c1">HTML</td>
+          <td>⭐️⭐️⭐️⭐️</td>
+        </tr>
+        <tr>
+          <td class = "c1">CSS</td>
+          <td>⭐️⭐️⭐️⭐️</td>
+        </tr>
+        <tr>
+          <td class = "c1">Javascript</td>
+          <td>⭐️⭐️⭐️⭐️v</td>
+        </tr>
+      </table>
+    </td>
+</table>
+
+<hr>
+<p>
+<h3>Pages</h3>
+<a href="projects.html"><button>Projects</button></a>
+<form action="projects.html">
+</form>
+</p>
+  <!-- <a href="./Rohan Morar - Resume.pdf" target="blank">Resume</a> -->
+<form>
+  <h3>Contact me</h3>
+  <label>Enter email: </label>
+  <input type="text" />
+  <input type="submit" />
+
+</form>
+
+</body>
 </html>
